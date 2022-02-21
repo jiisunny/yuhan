@@ -7,6 +7,10 @@
 
 
 /**** LAYOUT ********/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   width: 100%;
   display: block;
