@@ -10,26 +10,26 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  min-width: 1920px;
 }
 body {
   width: 100%;
   display: block;
   min-width: 1920px;
 }
-  body > img {
-    width: 100%;
-  }
-
+body > img {
+  width: 100%;
+}
 #banner {
   position: absolute;
   width: 1670px;
   height: 893px;
-  top: 0; left: 236px;
+  top: 0; 
+  left: 250px;
 }
-
 .swiper-container {
   width: 100%;
 }
-  .swiper-container > img {
-    width: 100%;
-  }
+.swiper-container > img {
+  width: 100%;
+}
